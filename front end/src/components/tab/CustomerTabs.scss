@@ -1,0 +1,32 @@
+/* Active tab label color */
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #ff5a5f !important;
+  // text-align: center;
+}
+
+/* Hover and focus color */
+.ant-tabs-tab:hover .ant-tabs-tab-btn,
+.ant-tabs-tab:focus .ant-tabs-tab-btn {
+  color: #ff5a5f !important;
+}
+
+/* Optional: Smooth transition */
+.ant-tabs-tab .ant-tabs-tab-btn {
+  transition: color 0.3s ease;
+}
+
+/* Ink bar color (underline) */
+.ant-tabs-ink-bar {
+  background-color: #ff5a5f !important;
+}
+
+.ant-tabs-ink-bar {
+  background-color: #ff5a5f !important;
+  height: 3px !important; /* Increase height for thicker line */
+  border-radius: 1px; /* Optional: rounded ends */
+}
+
+.ant-tabs-nav::before {
+  border-bottom: 2px solid #ddd !important; /* change #ddd to your desired color */
+  opacity: 1;
+}

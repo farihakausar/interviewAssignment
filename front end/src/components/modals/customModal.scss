@@ -1,0 +1,19 @@
+.custom-modal {
+  .ant-modal-close {
+    color: black !important;
+    background-color: #d02626 !important;
+    position: absolute;
+    top: -4% !important;
+    right: -2% !important;
+    width: 25px !important;
+    height: 25px !important;
+  }
+
+  .image-container {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

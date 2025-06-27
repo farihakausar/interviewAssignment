@@ -1,0 +1,26 @@
+.before-class:hover::before,
+.before-class.active::before {
+  content: "";
+  position: absolute;
+  left: -9%;
+  top: 49%;
+  transform: translateY(-50%);
+  width: .6vw;
+  height: 8vh;
+  background-color: #F47C61;
+  border-radius: 2rem;
+  transition: background-color 0.3s ease;
+}
+
+.before-class {
+  &:hover,
+  &.active {
+    color: #ffffff !important;
+    font-weight:500 !important;
+
+    img {
+      filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(2%)
+        hue-rotate(322deg) brightness(104%) contrast(101%);
+    }
+  }
+}

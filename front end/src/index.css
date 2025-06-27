@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ant table css */
+
+.custom-table .ant-table-thead > tr > th {
+  background-color: #ffffff !important;
+  color: black !important;
+}
+
+.ant-table-transparent-header .ant-table-thead > tr > th {
+  background-color: transparent !important;
+}
+:where(.css-dev-only-do-not-override-1kf000u).ant-progress .ant-progress-inner {
+  height: 4vh;
+  justify-content: center;
+  align-items: center;
+}
+
+:where(.css-dev-only-do-not-override-1kf000u).ant-table-wrapper
+  .ant-table-thead
+  > tr
+  > th {
+  border-radius: 12px !important;
+}
+
+:where(.css-dev-only-do-not-override-1kf000u)[class^="ant-table"] {
+  border-radius: 14px !important;
+  border: none !important;
+}
+
+:where(.css-dev-only-do-not-override-1kf000u).ant-table-wrapper
+  .ant-table-container
+  table
+  > thead
+  > tr:first-child
+  > *:first-child {
+  border-start-start-radius: 0px !important;
+}
+:where(.css-dev-only-do-not-override-1kf000u).ant-table-wrapper
+  .ant-table-container
+  table
+  > thead
+  > tr:first-child
+  > *:last-child {
+  border-start-end-radius: 0px !important;
+}
+
+:where(.css-1kf000u).ant-table-wrapper
+  .ant-table-container
+  table
+  > thead
+  > tr:first-child
+  > *:first-child {
+  border-start-start-radius: 1px !important;
+}
+:where(.css-1kf000u).ant-table-wrapper
+  .ant-table-container
+  table
+  > thead
+  > tr:first-child
+  > *:last-child {
+  border-start-end-radius: 1px !important;
+}
+
+/* For Chrome, Safari, Edge, Opera */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* For Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Target non-filled stars in disabled Rate */
+.ant-rate-disabled .ant-rate-star-zero svg {
+  color: #6c757d !important;
+}
+
+/* src/styles/gradientBackground.css */
+.gradient-bg {
+  background-image: linear-gradient(to bottom, #ff8d6e 70%, #c95664 100%);
+}
+.gradient-bg:hover {
+  background: linear-gradient(to bottom, #ff8d6e 70%, #c95664 100%) !important;
+  color: #ffffff !important;
+}
+
+.ant-input-outlined {
+  height: 8vh !important;
+  border-radius: 10px !important;
+  border: 1px solid #dbdbdb !important;
+}
+
+.ant-otp {
+  column-gap: 10px !important;
+}
+.ant-otp-input {
+  color: #1e1e1e80 !important;
+}
+/* Custom arrow position */
+.ant-popover-placement-bottomRight > .ant-popover-arrow {
+  right: 12px;
+  top: 1px;
+}
+
+/* custom pagination */
+.ant-segmented .ant-segmented-item-selected {
+  background-color: #f47c61 !important;
+  /* box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03),
+    0 1px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px 0 rgba(0, 0, 0, 0.02); */
+  color: white !important;
+}
+
+.ant-segmented .ant-segmented-item {
+  border-radius: 50% !important;
+  padding: 2px !important;
+  color: #c8c8c8;
+}
+
+.ant-segmented .ant-segmented-group {
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  justify-items: flex-start;
+  flex-direction: row;
+  width: 100%;
+  gap: 0.6rem !important;
+}
+
+/* On active or hover (non-selected) */
+.ant-segmented
+  .ant-segmented-item:active:not(.ant-segmented-item-selected):not(
+    .ant-segmented-item-disabled
+  )::after {
+  background-color: #f47c61 !important;
+}
+
+.ant-segmented
+  .ant-segmented-item:hover,
+    .ant-segmented-item-disabled
+  ::after {
+  background-color: #f47c61 !important;
+  color: white !important;
+}
+
+.custom-spinner .ant-spin-dot-item {
+  background-color: #F47C61 !important;
+}
